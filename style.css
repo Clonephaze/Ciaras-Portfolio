@@ -49,12 +49,19 @@ body {
     justify-content: center;
     margin-top: 1rem;
 
-    & .Sun {
-        width: 10rem;
-        height: 10rem;
+    > .SunContainer {
         position: absolute;
         transform: translateX(450%);
-        transition: 100ms ease-in-out;
+
+        & p {
+            font: 300 1.5rem 'Flower Power';
+            text-align: center;
+        }
+        & .Sun {
+            width: 10rem;
+            height: 10rem;
+            transition: 100ms ease-in-out;
+        }
     }
 
     & .TitleOuter {
