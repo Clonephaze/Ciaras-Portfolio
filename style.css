@@ -286,6 +286,41 @@ body {
             object-fit: contain;
         }
     }
+
+    > .arrowleft {
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+        background-color: var(--White);
+        height: 25px;
+        width: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    > .arrowright {
+        position: absolute;
+        top: 50%;
+        right: 10%;
+        transform: translate(-50%, -50%);
+        background-color: var(--White);
+        height: 25px;
+        width: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 24px;
+        font-weight: 700;
+    }
 }
 
 .ArtistStatementModal {
